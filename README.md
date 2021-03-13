@@ -1,3 +1,3 @@
 # HappinessBlog
 
-A simple minimal blog style template focusing more on look and design.
+A simple blog template with a minimal style focusing more on look and design.
