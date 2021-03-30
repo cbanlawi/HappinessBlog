@@ -3,6 +3,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
+  line-height: 1.6;
 }
 
 img {
@@ -24,7 +25,7 @@ h2,
 h3 {
   font-family: "Lustria", serif;
   font-weight: 400;
-  color: #FFB703;
+  color: #ffb703;
   margin-top: 0;
 }
 
@@ -43,7 +44,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #FFB703;
+  color: #ffb703;
 }
 
 strong {
@@ -53,10 +54,11 @@ strong {
 /* - h1 subtitle - */
 
 .subtitle {
-    font-weight: 700;
-    color: #e4860b;
-    font-size: 0.95rem;
-    margin: 0;
+  font-weight: 700;
+  color: #e4860b;
+  font-size: 0.85rem;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .article-title {
@@ -72,12 +74,14 @@ strong {
   color: #e4860b;
   text-decoration: none;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .article-read-more:hover,
 .article-read-more:focus {
-    color: #FFB703;
-    text-decoration: underline;
+  color: #ffb703;
+  text-decoration: underline;
 }
 
 .article-info {
@@ -87,15 +91,18 @@ strong {
 .widget-title,
 .widget-recent-post-title {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 .widget-title {
   font-family: "Lato", sans-serif;
   font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .widget-recent-post-title {
-  color: #FFB703;
+  color: #ffb703;
 }
 
 /* --- Layout --- */
@@ -120,7 +127,7 @@ header {
 }
 
 footer {
-  background: #FFB703;
+  background: #ffb703;
   color: white;
   text-align: center;
   padding: 0.5em 0;
@@ -154,15 +161,17 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
-    color: #707070;
-    font-weight: 700;
-    padding: 0.25em 0;
+  text-decoration: none;
+  color: #707070;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0.25em 0;
 }
 
 nav a:hover,
 nav a:focus {
-    color: #e4860b;
+  color: #e4860b;
 }
 
 .current {
@@ -178,7 +187,7 @@ nav a:focus {
     flex-direction: column;
   }
   nav li {
-    margin:  0.5em 0;
+    margin: 0.5em 0;
   }
 }
 
@@ -201,7 +210,7 @@ nav a:focus {
 }
 
 .article-recent-secondary {
- order: 1; 
+  order: 1;
 }
 
 @media (min-width: 675px) {
